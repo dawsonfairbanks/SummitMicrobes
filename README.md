@@ -66,10 +66,10 @@ git status
 git commit -m 'added some text file' #include some useful comment about what has been changed since last commit
 
 ```
-At this point you have taken a snapshot of changes to the branch, and there are likely more changes and work to be done. Make commits along the way at logical points
-Think of each commit as a consecutive stage, commit messages capture this history of your changes.
-Next, it is time to merge code between branches.
-Do this when you are finished working, don't wait too long to avoid merge conflicts.
+At this point you have taken a snapshot of changes to the branch, and there are likely more changes and work to be done. Make commits along the way at logical points <br>
+Think of each commit as a consecutive stage, commit messages capture this history of your changes. <br>
+Next, it is time to merge code between branches. <br>
+Do this when you are finished working, don't wait too long to avoid merge conflicts. <br>
 
 #### If you made changes in the master branch, you can easily revert with git revert or git reset to undo any undesired changes
 ```
