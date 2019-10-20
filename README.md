@@ -66,13 +66,12 @@ git status
 git commit -m 'added some text file' #include some useful comment about what has been changed since last commit
 
 ```
+At this point you have taken a snapshot of changes to the branch, and there are likely more changes and work to be done. Make commits along the way at logical points
+Think of each commit as a consecutive stage, commit messages capture this history of your changes.
+Next, it is time to merge code between branches.
+Do this when you are finished working, don't wait too long to avoid merge conflicts.
 
-#### At this point you have taken a snapshot of changes to the branch, and there are likely more changes and work to be done. Make commits along the way at logical points
-#### Think of each commit as a consecutive stage, commit messages capture this history of your changes.
-#### Next, it is time to merge code between branches.
-#### Do this when you are finished working, don't wait too long to avoid merge conflicts.
-
-## If you made changes in the master branch, you can easily revert with git revert or git reset to undo any undesired changes
+#### If you made changes in the master branch, you can easily revert with git revert or git reset to undo any undesired changes
 ```
 #in master branch
 git revert 
@@ -93,14 +92,14 @@ git merge branchNameHere # merge your branch
 ```
 
 # Getting back to GitHub- git push
-## Everything to this point is still on your local machine, use git push to push to GitHub
+Everything to this point is still on your local machine, use git push to push to GitHub
 ```
 git push
 
 ```
 
 # A final note..
-## We have successfully merged our branch to the master branch. You can delete that branch you've created:
+We have successfully merged our branch to the master branch. You can delete that branch you've created:
 ```
 git branch -d branchNameHere
 
